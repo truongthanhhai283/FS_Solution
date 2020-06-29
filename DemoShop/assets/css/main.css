@@ -132,12 +132,35 @@
     background-color: var(--white-color);
     right: 0;
     border: 1px #d3d3d3 solid;
+    animation: headerNotiGrowth ease-in 0.2s;
+
+    /* Thuộc tính animation đổi tâm */
+    transform-origin: 90% top;
+    display: none;
 }
+
+.header__navbar-item--has-notify:hover .header__notify{
+    display: block;
+}
+
+@keyframes headerNotiGrowth{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .header__notify-header {
     height: 40px;
     background-color: var(--white-color);
-
+    user-select: none;
+    cursor: default;
 }   
+
 
 .header__notify-header h3{
     color: #999;
@@ -145,6 +168,7 @@
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 40px;
+
 }
 .header__notify-list {
     padding-left: 0;
@@ -188,14 +212,20 @@
     display: block;
     font-size: 1.2rem;
     color: #756E6E;
-    line-height:1.6rem ;
+    line-height:1.8rem ;
+    margin-top: 4px;
 }
 
 .header__notify-footer{
-    text-align: center;
+   
+    
 }
 .header__notify-btn{
     text-decoration: none;
     color: var(--black-color);
-    padding: 4px 16px;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    display: block;
 }
