@@ -1,7 +1,8 @@
 :root{
     --white-color:white;
     --black-color:black;
-    --text-color: white
+    --text-color: white;
+    --Primary-color: #ff542e;    
 }
 
 *{
