@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Demo Solution</title>
 </head>
@@ -13,19 +13,21 @@
     <!-- BEM: Block Element Modifier a__b -->
     <div class="wrapper">
         <header class="header">
+            <div class="grid">
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item">Vào cửa hàng trên ứng dụng</li>
+                    <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng</li>
                     <li class="header__navbar-item">Kết nối</li>
                 </ul>
 
                 <ul class="header__navbar-list">
                     <li class="header__navbar-item"><a href="" class="header__navbar-item-link">Thông báo</a></li>
                     <li class="header__navbar-item"><a href="" class="header__navbar-item-link">Trợ giúp</a></li>
-                    <li class="header__navbar-item"><a href="" class="header__navbar-item-link">Đăng ký</a></li>
-                    <li class="header__navbar-item"><a href="" class="header__navbar-item-link">Đăng nhập</a></li>                    
+                    <li class="header__navbar-item"><a href="" class="header__navbar-item-link header__navbar-item-link--strong header__navbar-item--separate">Đăng ký</a></li>
+                    <li class="header__navbar-item"><a href="" class="header__navbar-item-link header__navbar-item-link--strong ">Đăng nhập</a></li>                    
                 </ul>
             </nav>
+        </div>
         </header>
 
         <div class="container">
