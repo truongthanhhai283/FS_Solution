@@ -139,6 +139,27 @@
     display: none;
 }
 
+/* Css arrow notify */
+.header__notify::before{
+    content: "";
+    border-width: 20px 30px;
+    border-style:  solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 1px;
+    top: -29px;
+}
+
+.header__notify::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    right: 0;
+    top: -16px;
+    height: 20px;
+}
+
 .header__navbar-item--has-notify:hover .header__notify{
     display: block;
 }
