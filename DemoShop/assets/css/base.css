@@ -70,27 +70,48 @@ html{
 }
 
 .modal__body{   
-    background-color: var(--white-color);
+  
 
     /* Căn giữa */
     margin: auto;
 
     position: relative;
-    border-radius: 5px;
+   
 }
 
 /* btn style */
 .btn{
     min-width: 142px;
-    height: 36px;
+    height: 34px;
     border: none;
     border-radius: 2px;
     font-size: 1.2rem;
-   padding: 0;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn--normal:hover{
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .btn.btn--primary{
     color: var(--white-color);
     background-color: var(--Primary-color);   
+}
+
+.btn.btn--disable{
+
+}
+
+.btn.btn--size-s{
+    height: 32px;   
+    font-size: 1.2rem;
+    text-decoration: none;    
+
 }
 
