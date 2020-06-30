@@ -137,6 +137,7 @@
     /* Thuộc tính animation đổi tâm */
     transform-origin: 90% top;
     display: none;
+    will-change: opacity, transform;
 }
 
 /* Css arrow notify */
