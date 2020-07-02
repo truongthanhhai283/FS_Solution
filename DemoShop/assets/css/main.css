@@ -14,12 +14,98 @@
     list-style: none;
     padding-left: 0;
     margin: 4px 0 0 0;
+    display: flex;
 }
 
 .header__navbar-item {
     margin: 0 8px;
     position: relative;
     min-height: 26px;
+}
+
+.header__navbar-user {
+    display: flex;
+    justify-items: center;
+    position: relative;
+}
+
+.header__navbar-user-img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid 1px #0000;
+}
+
+.header__navbar-user-name {
+    margin-left: 3px;
+    font-size: 1.4rem;
+}
+
+.header__navbar-user:hover .header__navbar-user-menu {
+    display: block;
+}
+
+.header__navbar-user-menu {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    top: calc(100% + 5px);
+    right: 0;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    width: 160px;
+    list-style: none;
+    box-shadow: 0 0 2px #ccc;
+    display: none;
+}
+
+.header__navbar-user-item {}
+
+.header__navbar-user-item a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.4rem;
+    padding: 4px 16px;
+    display: block;
+}
+
+.header__navbar-user-item a:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.header__navbar-user-item a:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.header__navbar-user-item a:hover {
+    background-color: #fafafa;
+}
+
+.header__navbar-user-menu::before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: -25px;
+    border-width: 16px 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    cursor: pointer;
+}
+
+
+/* bright css */
+
+.header__navbar-user-menu::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    /* background-color: tomato; */
 }
 
 .header__navbar-item,
@@ -41,7 +127,7 @@
 .header__navbar-item,
 .header__navbar-item-link,
 .header__navbar_icon-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
@@ -446,6 +532,10 @@
     animation: fadeIn ease-in 0.3s;
     cursor: default;
     display: none;
+}
+
+.header__cart-list a {
+    text-decoration: none;
 }
 
 .header__cart-heading {
