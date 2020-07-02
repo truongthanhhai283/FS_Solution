@@ -37,7 +37,7 @@
 }
 
 .header__navbar-user-name {
-    margin-left: 3px;
+    margin-left: 4px;
     font-size: 1.4rem;
 }
 
@@ -60,6 +60,10 @@
 }
 
 .header__navbar-user-item {}
+
+.header__navbar-user-item--separate {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
 
 .header__navbar-user-item a {
     text-decoration: none;
@@ -86,7 +90,7 @@
 .header__navbar-user-menu::before {
     content: "";
     position: absolute;
-    right: 20px;
+    right: 3px;
     top: -25px;
     border-width: 16px 20px;
     border-style: solid;
@@ -95,7 +99,7 @@
 }
 
 
-/* bright css */
+/* bright */
 
 .header__navbar-user-menu::after {
     content: "";
@@ -156,6 +160,10 @@
 .header__navbar_icon-link {
     color: var(--white-color);
     text-decoration: none;
+}
+
+.header__navbar_icon-link:nth-child(2) {
+    margin-left: 3px;
 }
 
 .header__navbar-icon {
@@ -219,6 +227,7 @@
 
 .header__notify {
     position: absolute;
+    z-index: 1;
     width: 404px;
     top: 118%;
     background-color: var(--white-color);
@@ -226,9 +235,10 @@
     border: 1px #d3d3d3 solid;
     animation: headerNotiGrowth ease-in 0.2s;
     /* Thuộc tính animation đổi tâm */
-    transform-origin: 90% top;
+    transform-origin: calc(100% - 32px) top;
     display: none;
     will-change: opacity, transform;
+    border-radius: 3px;
 }
 
 
@@ -302,7 +312,6 @@
 
 .header__notify-link {
     width: 100%;
-    display: flex;
     padding: 12px;
     text-decoration: none;
 }
@@ -314,6 +323,7 @@
 
 .header__notify-info {
     margin-left: 12px;
+    display: inline-block;
 }
 
 .header__notify-name {
@@ -487,6 +497,11 @@
     width: 200px;
 }
 
+.header__logo-link {
+    text-decoration: none;
+    color: transparent;
+}
+
 .header__logo-img {
     width: 150px;
 }
@@ -524,7 +539,7 @@
 
 .header__cart-list {
     position: absolute;
-    top: calc(100% + 6px);
+    top: calc(100% - 3px);
     right: -3px;
     background-color: var(--white-color);
     width: 400px;
@@ -747,8 +762,8 @@
 .header__search-option {
     position: absolute;
     right: 0;
-    top: 100%;
-    width: 150px;
+    top: calc(100% - 3px);
+    width: 146px;
     list-style: none;
     box-shadow: 0 0 2px #ccc;
     padding-left: 0;
@@ -756,6 +771,7 @@
     /* overflow: hidden; */
     display: none;
     animation: fadeIn ease-in 0.2s;
+    margin-top: 12px;
 }
 
 .header__search-option::after {
@@ -814,7 +830,7 @@
 
 .header__search-history {
     position: absolute;
-    top: calc(100% + 4px);
+    top: calc(100% + 3px);
     left: 0;
     width: calc(100% - 16px);
     background-color: var(--white-color);

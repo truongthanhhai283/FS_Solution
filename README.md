@@ -31,3 +31,15 @@ Animation:
 
     call: animation: name case timeduration;
 
+
+Fix UI bug:
+    1. Navbar font-size
+    2. Navbar social-icons
+    3. Navbar bell-icons
+    4. Notification arrow top offset + z-index + border-radius
+    5. Navbar margin beetween avatar + name
+    6. User menu separate
+    7. Logo link
+    8. Search selection offset - top
+
+https://themify.me/themify-icons
