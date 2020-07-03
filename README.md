@@ -43,3 +43,20 @@ Fix UI bug:
     8. Search selection offset - top
 
 https://themify.me/themify-icons
+
+
+*** Nguyên tắc làm responsive
+    .grid {
+        .row {
+            .column{
+
+            }
+            . n -column{
+
+            }
+        }
+
+        . n - row{
+
+        }
+    }
