@@ -1029,3 +1029,61 @@
     flex: 1;
     text-decoration: none;
 }
+
+
+/* product item */
+
+.home-product-item {
+    background-color: var(--white-color);
+    margin-top: 10px;
+}
+
+.home-product-item__img {
+    /* chiều ngang của thẻ chứa */
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-product-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: var(--text-color);
+    margin: 10px 0;
+    overflow: hidden;
+    display: block;
+    /* Tạo dấu ... */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* Tạo dấu ... cách 2 */
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+.home-product-item__price {}
+
+.home-product-item_price-old {}
+
+.home-product-item_price-current {}
+
+.home-product-item__action {}
+
+.home-product-item__like {}
+
+.home-product-item__rating {}
+
+.home-product-item__origin {}
+
+.home-product-item__brand {}
+
+.home-product-item__origin-name {}
+
+.home-product-item__favourite {}
+
+.home-product-item__sale-off {}
+
+.home-product-item__sale-off-percent {}
+
+.home-product-item__sale-off-label {}
