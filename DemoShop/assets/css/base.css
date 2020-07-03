@@ -22,6 +22,9 @@ html {
     box-sizing: border-box;
 }
 
+
+/* Responsive */
+
 .grid {
     width: 1200px;
     /* Giảm width= kích thước màn hình nhỏ hơn 1200 */
@@ -38,6 +41,8 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
+
+.grid__row {}
 
 
 /* Animation */
