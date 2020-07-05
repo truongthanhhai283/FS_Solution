@@ -203,3 +203,46 @@ html {
 .select-input__link:hover {
     color: var(--Primary-color);
 }
+
+
+/* pagination */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item {
+    margin: 0 12px;
+}
+
+.pagination-item__link {
+    --height: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    height: --height;
+    display: block;
+    text-align: center;
+    line-height: --height;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.pagination-item--active .pagination-item__link {
+    background-color: var(--Primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #ec5d3f;
+}
+
+.pagination-item__icon {}
+
+.home-product__pagination {
+    margin: 48px 0 32px 0;
+}
