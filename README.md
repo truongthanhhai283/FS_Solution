@@ -42,6 +42,13 @@ Fix UI bug:
     7. Logo link
     8. Search selection offset - top
 
+    9. Header-QR -> z-index
+    10. User menu offset-top
+    11. Seach history z-index
+    12. Cart z-index
+    13. Cart product name limit
+    14. Category style
+    15. product border-radius
 https://themify.me/themify-icons
 
 
