@@ -67,3 +67,45 @@ https://themify.me/themify-icons
 
         }
     }
+	
+***** Responsive
+		- Responsive Web Design (RWD) là xu hướng mới theo đó quy trình thiết kế và phát triển web sẽ đáp ứng mọi thiết bị và môi trường của người dùng theo các tiêu chí kích thước và chiều của màn hình thiết bị
+		- Tối ưu trải nghiệm người dùng:
+		 + Hiển thị rõ ràng các thành phần
+		 + Ẩn/Hiện các thành phần phù hợp theo kích thước màn hình
+		 
+		- How to:
+			using css to hid/show elements
+		
+		- Tools
+			Chrome developerment tools
+			Viewport resizer chrome extension
+			
+		
+		** Khái niệm Viewport
+			Viewport là khu vực mà người dùng có thể dòm thấy nội dung của trang web. Có thể tạm dịch là KHUNG NHÌN.
+
+		** Media query (@media)
+			@media not|only mediatype and (mediafeauture and/or/not mediafeauture{
+			
+				.....Css code
+			}
+			
+			Keyword: 
+				NOT -> Loại trừ
+				ONLY -> 
+				AND
+				OR
+			mediatypes: Trường hợp responsive 
+				Print -> 
+				Screen
+				Speech
+				ALL
+				
+			mediafeauture
+				MIN-WIDTH: Lớn hơn
+				MAX-WIDTH  Lớn hơn
+			
+			Polyfill: giúp S/dụng được mediaquery
+				
+		
