@@ -1,3 +1,41 @@
-h1 {
-    color: red;
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile,
+.tablet,
+.pc {
+    background-color: sandybrown;
+    width: 100%;
+    text-align: center;
+    display: none;
+    font-size: 50px;
+}
+
+
+/*Moblie: width < 740px */
+
+@media only screen and (max-width: 739px) {
+    .mobile {
+        display: block;
+    }
+}
+
+
+/*Tablet: width >= 740px and width < 1024 */
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .tablet {
+        display: block;
+    }
+}
+
+
+/*PC: width >= 1024px */
+
+@media only screen and (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
 }
