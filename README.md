@@ -122,7 +122,8 @@ https://themify.me/themify-icons
 			*PC: width >= 1024px *
 
 
-
+		** Media queries: Px, rem hay em?
+			Sử dụng em
 
 
 
