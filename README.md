@@ -126,11 +126,20 @@ https://themify.me/themify-icons
 			Sử dụng em
 
 
+	
 
 
-
-
-
+		Responsive web design
+			grid -> thành phần cha
+			row -> dòng
+			column -> cột
+			getter -> khoảng cách 2 phía của column
+			
+		layout: 
+			PC: 12 col
+			Tablet: 8 col
+			Mobile: 4 col
+	
 
 
 
