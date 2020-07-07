@@ -140,8 +140,13 @@ https://themify.me/themify-icons
 			Tablet: 8 col
 			Mobile: 4 col
 	
-
-
+	***** 	Tạo đối tượng Grid
+		Class "grid" giúp chúng ta chứa nội dung chính hoặc các thành phần chính trên layout website.
+		Grid được tạo dựng linh động, có thể sử dụng cho trường hợp (full-width) với class "grid" (tượng tự class "container-fluid" trong bootstrap). Và khi muốn sử dụng 1200px Grid system 12 columns các bạn có thể sử dụng 2 class là "grid wide" (tương tự như class "container" trong bootstrap).
+		Grid tự động thay đổi chiều rộng trên các thiết bị khác nhau. Để đơn giản hóa việc tạo responsive layout với grid system - ở đây, mình sẽ handle việc tự động thay đổi chiều rộng của "grid" với 3 breakpoints.
+	***** 	Tạo đối tượng Row
+		Row nghĩa là hàng, được sử dụng để chứa các Columns. Row giúp định hướng các Columns theo chiều ngang. 
+		Row sử dụng margin với giá trị âm sang 2 phía trái/phải để "bù trừ" cho khoảng padding trái/phải của Columns (Column padding trái/phải để tạo ra rãnh ngăn - hay còn gọi là gutters).
 
 			
 ****************************************************************
