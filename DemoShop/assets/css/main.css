@@ -378,7 +378,7 @@
 
 .auth-form__switch-btn {
     font-size: 1.5rem;
-    color: var(--Primary-color);
+    color: var(--primary-color);
     font-weight: 400;
     cursor: pointer;
 }
@@ -420,7 +420,7 @@
 
 .auth-form__text-link {
     text-decoration: none;
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 .auth-form__controls {
@@ -482,7 +482,7 @@
 }
 
 .auth-form__help-forgot {
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -613,7 +613,7 @@
 .header__cart-item-price {
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--Primary-color);
+    color: var(--primary-color);
     font-weight: 400;
 }
 
@@ -655,7 +655,7 @@
 }
 
 .header__cart-item-remove:hover {
-    color: var(--Primary-color);
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -702,7 +702,7 @@
     position: absolute;
     padding: 2px 4px;
     background-color: var(--white-color);
-    color: var(--Primary-color);
+    color: var(--primary-color);
     font-size: 1.4rem;
     line-height: 1.4rem;
     border-radius: 10px;
@@ -750,7 +750,7 @@
 }
 
 .header__search-btn {
-    background-color: var(--Primary-color);
+    background-color: var(--primary-color);
     border: none;
     width: 60px;
     height: 34px;
@@ -826,7 +826,7 @@
 }
 
 .header__search-option-item i {
-    color: var(--Primary-color);
+    color: var(--primary-color);
     font-size: 1.2rem;
     margin-left: 12px;
     display: none;
@@ -887,6 +887,58 @@
 }
 
 
+/* Header sort bar */
+
+.header__sort-bar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    height: var(--header-sort-bar-height);
+    background-color: var(--white-color);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    border-top: 1px solid #e5e5e5;
+    border-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    display: none;
+}
+
+.header__sort-item {
+    flex: 1;
+}
+
+.header__sort-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    display: block;
+    height: 100%;
+    line-height: var(--header-sort-bar-height);
+    text-align: center;
+    position: relative;
+}
+
+.header__sort-link::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 60%;
+    border-left: 1px solid #e5e5e5;
+    transform: translateY(-50%);
+}
+
+.header__sort-item-child .header__sort-link::before {
+    display: none;
+}
+
+.header__sort-item--active .header__sort-link {
+    color: var(--primary-color);
+}
+
+
 /* app_container */
 
 .app_container {
@@ -934,7 +986,7 @@
 }
 
 .category-item-active .category-item__link {
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -947,7 +999,7 @@
     left: 4px;
     content: "";
     border: 4px solid;
-    border-color: transparent transparent transparent var(--Primary-color);
+    border-color: transparent transparent transparent var(--primary-color);
     transform: translateY(calc(-50% - 1px))
 } */
 
@@ -964,7 +1016,7 @@
 }
 
 .category-item__link:hover {
-    color: var(--Primary-color);
+    color: var(--primary-color);
     /* right: -4px; */
 }
 
@@ -1009,7 +1061,7 @@
 }
 
 .home-filter__page_current {
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 .home-filter__page-control {
@@ -1124,7 +1176,7 @@
 
 .home-product-item_price-current {
     font-size: 1.4rem;
-    color: var(--Primary-color);
+    color: var(--primary-color);
     margin-left: 10px;
 }
 
@@ -1139,7 +1191,7 @@
 }
 
 i.home-product-item__like-fill {
-    color: var(--Primary-color);
+    color: var(--primary-color);
     display: none;
 }
 
@@ -1187,7 +1239,7 @@ i.home-product-item__like-fill {
     position: absolute;
     top: 10px;
     left: -4px;
-    color: var(--Primary-color);
+    color: var(--primary-color);
     background-color: currentColor;
     font-size: 1.2rem;
     font-weight: 500;
@@ -1262,7 +1314,7 @@ i.home-product-item__like-fill {
 
 .footer {
     padding-top: 16px;
-    border-top: 4px solid var(--Primary-color);
+    border-top: 4px solid var(--primary-color);
 }
 
 .footer__heading {
@@ -1286,7 +1338,7 @@ i.home-product-item__like-fill {
 }
 
 .footer-item__link:hover {
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 .footer-item__icon {

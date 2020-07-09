@@ -2,12 +2,13 @@
     --white-color: white;
     --black-color: black;
     --text-color: #b1a5a5;
-    --Primary-color: #ff542e;
+    --primary-color: #ff542e;
     --border-color: #dbdbdb;
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
-    --stat-gold-color: #FFce3e
+    --stat-gold-color: #FFce3e;
+    --header-sort-bar-height: 46px;
 }
 
 * {
