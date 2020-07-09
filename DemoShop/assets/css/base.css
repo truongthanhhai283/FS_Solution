@@ -26,18 +26,6 @@ html {
 
 /* Responsive */
 
-.grid {
-    width: 1200px;
-    /* Giảm width= kích thước màn hình nhỏ hơn 1200 */
-    max-width: 100%;
-    /* Căn giữa */
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
