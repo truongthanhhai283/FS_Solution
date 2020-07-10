@@ -1,3 +1,10 @@
+/* wrapper */
+
+.wrapper {
+    overflow: hidden;
+}
+
+
 /* Navbar CSS */
 
 .header {

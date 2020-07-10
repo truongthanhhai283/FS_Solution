@@ -128,7 +128,7 @@ html {
 
 .btn.btn--primary {
     color: var(--white-color);
-    background-color: var(--Primary-color);
+    background-color: var(--primary-color);
 }
 
 .btn.btn--disable {}
@@ -190,7 +190,7 @@ html {
 }
 
 .select-input__link:hover {
-    color: var(--Primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -222,7 +222,7 @@ html {
 }
 
 .pagination-item--active .pagination-item__link {
-    background-color: var(--Primary-color);
+    background-color: var(--primary-color);
     color: var(--white-color);
 }
 
@@ -234,4 +234,5 @@ html {
 
 .home-product__pagination {
     margin: 48px 0 32px 0;
+    padding-left: 0;
 }
