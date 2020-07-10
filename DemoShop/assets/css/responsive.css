@@ -31,6 +31,9 @@
     .header__sort-bar {
         display: flex;
     }
+    .app_content {
+        padding-top: 8px;
+    }
 }
 
 
@@ -43,6 +46,9 @@
     .header__cart {
         width: 80px;
         text-align: right;
+    }
+    .home-filter {
+        display: none;
     }
 }
 
