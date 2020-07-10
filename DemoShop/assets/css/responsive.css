@@ -8,6 +8,9 @@
     .hide-on-mobile-tablet {
         display: none;
     }
+    .show-on-mobile-tablet {
+        display: block;
+    }
     .header {
         position: fixed;
         z-index: 10;
@@ -33,6 +36,9 @@
     }
     .app_content {
         padding-top: 8px;
+    }
+    .mobile-category {
+        display: block;
     }
 }
 
@@ -78,6 +84,16 @@
         animation: mobileSearchSideIn linear 0.3s;
         display: none;
     }
+    @keyframes mobileSearchSideIn {
+        from {
+            opacity: 0;
+            top: (var(--header-height)/2);
+        }
+        to {
+            opacity: 1;
+            top: var(--header-height);
+        }
+    }
     .header__search-history {
         position: fixed;
         width: 100%;
@@ -96,14 +112,10 @@
     .app_content {
         margin: 0 4px;
     }
-    @keyframes mobileSearchSideIn {
-        from {
-            opacity: 0;
-            top: (var(--header-height)/2);
-        }
-        to {
-            opacity: 1;
-            top: var(--header-height);
-        }
+    .header__mobile-search {
+        display: block;
+    }
+    .header__logo-img {
+        width: 110px;
     }
 }
