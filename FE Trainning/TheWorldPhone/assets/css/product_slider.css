@@ -1,0 +1,112 @@
+    .owl-carousel-item {
+        width: 240px;
+        background-color: var(--white-color);
+    }
+    
+    .owl-dots {
+        display: none;
+    }
+    
+    .owl-theme .owl-nav {
+        margin-top: 0;
+    }
+    
+    .owl-prev,
+    .owl-next {
+        width: 40px;
+        height: 60px;
+    }
+    
+    .navigat {
+        display: block;
+        overflow: hidden;
+        background: #fff;
+    }
+    
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+        background-color: white;
+        border-top: 1px solid #eee;
+        height: 100%;
+    }
+    
+    .owl-carousel-item h3 {
+        line-height: 1.3em;
+        font-size: 14px;
+        color: #333;
+        margin: 0 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .price {
+        display: block;
+        overflow: hidden;
+        padding: 5px 10px 10px 10px;
+    }
+    
+    .price strong {
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+        font-size: 14px;
+        color: #bf081f;
+        line-height: 15px;
+    }
+    
+    .price span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 12px;
+        text-decoration: line-through;
+        margin-left: 5px;
+        color: #333;
+    }
+    
+    .price i {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 12px;
+        margin-left: 5px;
+        color: #bf081f;
+        font-style: normal;
+    }
+    
+    .price label.installment {
+        background: #f28902;
+    }
+    
+    label {
+        display: inline-block;
+        position: absolute;
+        top: 178px;
+        left: 10px;
+        font-size: 11px;
+        color: #fff;
+        font-weight: 600;
+        background: #3fb846;
+        border-radius: 2px;
+        padding: 0 5px;
+        height: 18px;
+    }
+    
+    label.preorder {
+        background: #e91e63;
+    }
+    
+    label.discount {
+        background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+        border-radius: 10px;
+        padding: 1px 7px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    
+    .owl-carousel-item-link-large {
+        display: block;
+        cursor: pointer;
+    }

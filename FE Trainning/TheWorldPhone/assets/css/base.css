@@ -1,0 +1,92 @@
+:root {
+    --white-color: #fff;
+    --text-black-color: #333;
+    --red-color: #f01;
+    --blue-color: #288ad6;
+    --primary-color: #fed700;
+    --border-color: #eee;
+    --header-height: 54px;
+    --gray-color: #666;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* Hack ~ 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    /* sans-serif: chủng chứ không có chân */
+    box-sizing: border-box;
+    font: 0.875rem/1.125rem Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+.owl-carousel .owl-item img,
+.main-wrapper__home-product-list-item-image-product {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 15px auto;
+    transition: all ease 300ms;
+}
+
+.owl-carousel-item-link-large:hover .owl-carousel-item-title-text,
+.owl-carousel-item-link-large:hover .main-wrapper__home-product-list-item-name-product {
+    color: var(--blue-color);
+}
+
+.owl-carousel-item-link-large:hover .owl-carousel-item-img,
+.owl-carousel-item-link-large:hover .main-wrapper__home-product-list-item-image-product {
+    position: relative;
+    bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+/* Scroll top */
+
+#back-to-top {
+    --size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: var(--size);
+    height: var(--size);
+    text-align: center;
+    line-height: 30px;
+    background: #fdd504;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: var(--primary-color);
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+#content {
+    height: 2000px;
+}
+
+.back-to-top-icon {
+    font-size: 1.8rem;
+    margin: 6px;
+}

@@ -1,0 +1,26 @@
+
+
+2. Các bước xây dựng website
+	Bước 1: Xác định yêu cầu website cần xây dựng
+		Các yêu cầu và mục tiêu của website
+		Đối tượng khách hàng
+		Website thuộc loại nào
+	
+	Bước 2: Chọn và mua tên miền
+		! Loại hosting & ngôn ngữ xây dựng web
+		! Băng thông & Dung lượng
+		! Cơ sở dữ liệu
+		! Email server
+	Bước 3: Thuê chỗ Hosting
+	Bước 4: Thiết kế website
+	Bước 5: Triển khai website
+	Bước 6: Cập nhật thông tin, bảo trì website
+	
+Javascript
+							Data type
+	null connecton.Close(); connecton=null
+	
+	
+	
+
+	
